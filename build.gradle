@@ -18,6 +18,8 @@ ext {
 
 dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.3.9.RELEASE'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
